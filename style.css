@@ -1,0 +1,533 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Martel:wght@600;700;900&family=Rubik:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  background-image: url(/images/background.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container1 nav {
+  display: flex;
+}
+.container1 nav h3 {
+  font-family: Martel;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 2%;
+  margin-left: 15%;
+  color: white;
+}
+.container1 nav ul {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  height: 10vh;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin-top: 2%;
+  margin-left: 45%;
+}
+.container1 .text {
+  text-align: center;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 8%;
+  color: white;
+}
+.container1 .text h1 {
+  margin-bottom: 5%;
+  font-family: Martel;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 65px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+}
+.container1 .text h4 {
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+.container1 .text .get {
+  border: none;
+  height: 48px;
+  width: 182px;
+  border-radius: 37px;
+  padding: 10px 36px 10px 36px;
+  color: white;
+  background-color: rgb(219, 180, 104);
+}
+.container1 .text button {
+  margin-top: 5%;
+}
+.container1 .text .learn {
+  height: 48px;
+  width: 182px;
+  border-radius: 37px;
+  padding: 10px 36px 10px 36px;
+  color: black;
+  opacity: 0.6;
+  border: 1px solid white;
+}
+.container1 .finish1 {
+  box-shadow: 0px 0px 14px grey;
+  margin-top: 12%;
+  width: 80%;
+  display: flex;
+  gap: 5%;
+  margin-left: 10%;
+  background-color: white;
+}
+.container1 .finish1 .kart1 {
+  align-items: center;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  background-color: white;
+  display: flex;
+  width: 250px;
+  height: 100px;
+  border-radius: 2px;
+}
+.container1 .finish1 .kart1 .text {
+  padding-bottom: 2%;
+}
+.container1 .finish1 .kart1 h3 {
+  color: rgb(37, 43, 66);
+  font-family: Martel;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+.container1 .finish1 .kart1 h6 {
+  color: rgb(115, 115, 115);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+
+.container2 {
+  margin-top: 10%;
+  background-color: rgb(250, 250, 250);
+}
+.container2 .kartochka {
+  margin-left: 10%;
+  margin-top: 2%;
+  display: flex;
+  gap: 5%;
+  width: 90%;
+}
+.container2 .kartochka .kar1 {
+  padding-left: 2%;
+  padding-top: 2%;
+  line-height: 20px;
+  background-color: rgb(255, 255, 255);
+  height: 250px;
+  width: 200px;
+  left: 4px;
+  top: 0px;
+  border-radius: 0px;
+}
+.container2 .kartochka .kar1 p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.container2 .kartochka .kar2 {
+  padding-left: 2%;
+  padding-top: 2%;
+  color: white;
+  line-height: 20px;
+  background-color: rgb(37, 43, 66);
+  height: 250px;
+  width: 200px;
+  left: 4px;
+  top: 0px;
+  border-radius: 0px;
+}
+.container2 .kartochka .kar2 .asd {
+  height: 53px;
+  width: 150px;
+  border-radius: 37px;
+  padding: 10px 36px 10px 36px;
+  color: white;
+  background-color: rgb(208, 161, 68);
+}
+.container2 .kartochka .kar2 p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.container2 .kartochka h4 {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1000000015px;
+  text-align: left;
+}
+.container2 .asd {
+  height: 53px;
+  width: 150px;
+  border-radius: 37px;
+  padding: 10px 36px 10px 36px;
+  color: rgb(120, 79, 51);
+  border: 1px solid rgb(120, 79, 51);
+}
+
+.text4 {
+  width: 600px;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+.text4 h2 {
+  color: rgb(37, 43, 66);
+  font-family: Martel;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+}
+.text4 p {
+  color: #737373;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+}
+
+.dutaga {
+  width: 80%;
+  display: flex;
+  gap: 10%;
+  margin-left: 20%;
+}
+.dutaga .image {
+  width: 380px;
+  height: 300px;
+}
+.dutaga .imageees {
+  position: relative;
+}
+.dutaga .ima {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 39%;
+  top: 40%;
+}
+.dutaga .text5 {
+  width: 26%;
+}
+.dutaga .text5 h2 {
+  color: rgb(37, 43, 66);
+  font-family: Martel;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.dutaga .text5 p {
+  color: #737373;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.dutaga .text5 .par {
+  margin-left: 10%;
+}
+
+.container3 .kabut {
+  width: 100%;
+  background-color: rgb(41, 92, 122);
+}
+.container3 .kabut .text6 {
+  text-align: center;
+  margin-bottom: 5%;
+  padding-top: 5%;
+  margin-top: 10%;
+}
+.container3 .kabut h2 {
+  font-family: Martel;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: white;
+}
+.container3 .kabut p {
+  text-align: center;
+  color: white;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.200000003px;
+}
+.container3 .aaa {
+  width: 100%;
+  display: flex;
+  gap: 10%;
+}
+.container3 .aaa .aaa1 {
+  margin-bottom: 7%;
+  background-color: white;
+  height: 250px;
+  width: 250px;
+  left: 103.5px;
+  top: 40px;
+  border-radius: 0px;
+  padding: 30px 60px 30px 60px;
+}
+.container3 .aaa .aaa1 .odamcha {
+  position: absolute;
+  left: 31%;
+}
+.container3 .aaa .aaa1 .odamchaa {
+  position: absolute;
+  right: 25%;
+}
+.container3 .aaa .aaa1 h3 {
+  color: rgb(37, 43, 66);
+  font-family: Martel;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1000000015px;
+  text-align: left;
+}
+.container3 .aaa .aaa1 h6 {
+  color: rgb(115, 115, 115);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.container3 .aaa .aaa1 p {
+  color: rgb(115, 115, 115);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.container3 .container4 {
+  background-color: rgb(250, 250, 250);
+}
+.container3 .container4 .text7 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.container3 .container4 .text7 h2 {
+  margin-bottom: 1%;
+  color: rgb(37, 43, 66);
+  font-family: Martel;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.200000003px;
+}
+.container3 .container4 .text7 p {
+  color: rgb(115, 115, 115);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+}
+.container3 .container4 .card {
+  width: 93%;
+  display: flex;
+  gap: 5%;
+  margin-left: 7%;
+}
+.container3 .container4 .card .card1 {
+  background-color: white;
+  height: 230px;
+  width: 150px;
+  left: 4px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 30px 40px 30px 40px;
+}
+.container3 .container4 .card .card1 h6 {
+  color: rgb(208, 161, 68);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.container3 .container4 .card .card1 h5 {
+  margin-bottom: 1%;
+  font-family: Martel;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1000000015px;
+  text-align: center;
+}
+.container3 .container4 .card .card1 p {
+  color: rgb(115, 115, 115);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+}
+
+.finish {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(37, 43, 66);
+}
+.finish .fin {
+  display: flex;
+  gap: 5%;
+}
+.finish .fin .text8 {
+  width: 30%;
+  text-align: center;
+  margin-left: 10%;
+  padding-top: 5%;
+}
+.finish .fin .text8 h2 {
+  color: white;
+  font-family: Martel;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.finish .fin .text8 p {
+  color: white;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.finish .fin .map {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.finish .form {
+  margin-top: 7%;
+  background-color: white;
+  width: 70%;
+  display: flex;
+  line-height: 200%;
+  margin-left: 10%;
+}
+.finish .form .sur .form2 .book {
+  height: 58px;
+  width: 100%;
+  left: 50px;
+  top: 539px;
+  border-radius: 5px;
+  padding: 15px 40px 15px 40px;
+}
+.finish .form .ssssss {
+  height: 500px;
+  width: 300px;
+}
+.finish .form h2 {
+  font-family: Martel;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.finish .lasstt {
+  margin-top: 30px;
+  width: 100%;
+  height: 30vh;
+  background-color: white;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+.finish .lasstt h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+.finish .lasstt ul {
+  list-style-type: none;
+}
+.finish .lasstt li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 35px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.finish .lasstt i {
+  margin-top: 10px;
+  letter-spacing: 10px;
+}
+.finish .konets {
+  background-color: rgb(250, 250, 250);
+  margin-top: 5%;
+  margin-bottom: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+  height: 5vh;
+  text-align: center;
+}
+.finish .konets h6 {
+  color: rgb(115, 115, 115);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+}/*# sourceMappingURL=style.css.map */
